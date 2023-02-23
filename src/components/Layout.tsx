@@ -7,9 +7,9 @@ interface LayoutProps {
 
 const Layout: FC<LayoutProps> = ({ children }) => {
   return (
-    <div>
+    <div className="flex justify-center items-center flex-col">
       <Header />
-      {children}
+      <div className="w-4/5 ">{children}</div>
     </div>
   );
 };

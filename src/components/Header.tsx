@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="bg-slate-500 flex justify-center py-5">
+    <header className="bg-slate-500 flex w-full justify-center py-5">
       <nav className="w-4/5 justify-between flex ">
         <div>
           <h1 className="text-slate-200">MTB</h1>
